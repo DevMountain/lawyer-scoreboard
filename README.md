@@ -10,6 +10,7 @@ You're building an API that will list ratings/stats of lawyers. You'll use basic
 * Create a package.json file with the following dependencies:
   * mysql
   * sequelize
+  * express
 * Create a server.js file
 * In your server.js file, require sequelize and initiate a new db connection to your local db
 * Using Sequel Pro, create a database called lawyer_scoreboard
@@ -26,4 +27,10 @@ You're building an API that will list ratings/stats of lawyers. You'll use basic
 ###Step 3: Create a simple GET endpoint `/lawyers` for retrieving lawyer rankings
 * Using Sequel Pro, insert some data into your lawyer table
 * Utilize Express to create a single GET endpoint for retrieving the lawyer data in JSON format
-* 
+ * To retrieve the data, check out the `.all()` method for Sequelize models:
+
+```javascript 
+Lawyer.all().success(function(lawyers) {
+  // lawyers will be an array of all Lawyer instances
+})
+```
