@@ -1,0 +1,9 @@
+{
+    "name": "lawyer-scoreboard",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "*",
+        "sequelize": "*",
+        "mysql": "*"
+    }
+}
