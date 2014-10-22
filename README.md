@@ -34,3 +34,12 @@ Lawyer.all().success(function(lawyers) {
   // lawyers will be an array of all Lawyer instances
 })
 ```
+###Step 4: Front-end
+Create a simple Angular front-end for showing your lawyer scoreboard.
+* Create an index.html file use `<script>` tags to link to Angular (//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.js)
+* (You could also include bootstrap CSS to give your project some initial style)
+* Create an app.js to define your app
+* Create a main-ctrl.js as your `MainCtrl`
+* Create a lawyer-service.js that will get the lawyer data from your API
+* Use express static middleware to serve your static html/js files alongside your API endpoint. Reference: http://runnable.com/UWw3g0PKxoAWAA6K/how-to-serve-static-files-in-express-for-node-js
+* Show the lawyers in an ng-repeat in your index.html file
