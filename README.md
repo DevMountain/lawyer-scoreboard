@@ -43,3 +43,7 @@ Create a simple Angular front-end for showing your lawyer scoreboard.
 * Create a lawyer-service.js that will get the lawyer data from your API
 * Use express static middleware to serve your static html/js files alongside your API endpoint. Reference: http://runnable.com/UWw3g0PKxoAWAA6K/how-to-serve-static-files-in-express-for-node-js
 * Show the lawyers in an ng-repeat in your index.html file
+
+## Copyright
+
+© DevMountain LLC, 2016. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
